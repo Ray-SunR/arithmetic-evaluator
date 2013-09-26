@@ -9,7 +9,7 @@
 //  • a unary operation (NEG or ABS, denoting negation and absolute value) applied to an expression
 //  • a binary operation (+, -, *, or /) applied to two expressions
 //  Expressions will be entered in reverse Polish notation (RPN)
-//  Sample Input:
+//  Sample Input:  
 //   1 2 + 3 4 - * ABS NEG
 //  Sample Output:
 //  -|((1 + 2) * (3 - 4))|
