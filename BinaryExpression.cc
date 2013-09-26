@@ -17,7 +17,7 @@ BinaryExpression::BinaryExpression(Expression* Left, Expression* Right, std::str
     Left_Val = Left->evaluate();
     Right_Val = Right->evaluate();
 }
-
+    
 //get the representation of the expression
 std::string BinaryExpression::prettyprint()
 {
