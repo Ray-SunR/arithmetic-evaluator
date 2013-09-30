@@ -14,7 +14,7 @@ BinaryExpression::BinaryExpression(Expression* Left, Expression* Right, std::str
     this->opera = opera;
     Left_expr = Left->prettyprint();
     Right_expr = Right->prettyprint();
-    Left_Val = Left->evaluate();
+    Left_Val = Left->evaluate();    
     Right_Val = Right->evaluate();
 }
     
